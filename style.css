@@ -24,7 +24,7 @@ body {
 
 }
 
-.grid-container {
+.grid-item {
   display: grid;
   grid-template-columns: auto;
   gap: 15px;
@@ -219,7 +219,7 @@ img {
 
 
 @media screen and (min-width: 540px) {
-  .grid-container {
+  .grid-item {
     grid-template-columns: 470px 1fr;
     max-width: 1106px;
   }
